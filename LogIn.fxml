@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.shape.Circle?>
+<?import javafx.scene.shape.QuadCurve?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane id="AnchorPane" prefHeight="600.0" prefWidth="800.0" style="-fx-background-color: ffe8fb;" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="healthymeals.loginController">
+   <children>
+      <ImageView fitHeight="359.0" fitWidth="376.0" layoutX="213.0" layoutY="241.0" opacity="0.41">
+         <image>
+            <Image url="@imgs/774832.png" />
+         </image>
+      </ImageView>
+      <Rectangle arcHeight="5000.0" arcWidth="5.0" fill="#ebabe2d6" height="63.0" layoutX="320.0" layoutY="494.0" opacity="0.49" stroke="WHITE" strokeType="INSIDE" width="164.0" />
+      <Circle fill="#aa21ff17" layoutX="401.0" layoutY="14.0" radius="286.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" />
+      <Text fill="#fff9fe" layoutX="296.0" layoutY="270.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Log In">
+         <font>
+            <Font name="Britannic Bold" size="75.0" />
+         </font>
+      </Text>
+      <Circle fill="#b69dcf99" layoutX="400.0" radius="210.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" />
+      <ImageView fitHeight="137.0" fitWidth="136.0" layoutX="264.0" layoutY="38.0">
+         <image>
+            <Image url="@imgs/2880492.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="87.0" fitWidth="86.0" layoutX="334.0" layoutY="105.0">
+         <image>
+            <Image url="@imgs/1943200.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="112.0" fitWidth="111.0" layoutX="400.0" layoutY="50.0">
+         <image>
+            <Image url="@imgs/2880701.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="63.0" fitWidth="55.0" layoutX="470.0" layoutY="117.0">
+         <image>
+            <Image url="@imgs/3173522.png" />
+         </image>
+      </ImageView>
+      <QuadCurve controlX="12.0" controlY="89.0" endX="145.0" endY="-13.0" fill="#eda1bd" layoutX="390.0" layoutY="175.0" startX="-124.0" startY="-13.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" />
+      <BorderPane layoutX="87.0" layoutY="276.0" prefHeight="274.0" prefWidth="628.0">
+         <center>
+            <HBox alignment="CENTER" prefHeight="287.0" prefWidth="711.0" spacing="30.0" BorderPane.alignment="CENTER">
+               <children>
+                  <VBox alignment="CENTER" prefHeight="146.0" prefWidth="155.0" spacing="70.0">
+                     <children>
+                        <Label text="User Name" textFill="#eda1bd">
+                           <font>
+                              <Font name="Comic Sans MS Bold" size="24.0" />
+                           </font>
+                        </Label>
+                        <Label text="Password" textFill="#eda1bd">
+                           <font>
+                              <Font name="Comic Sans MS Bold" size="24.0" />
+                           </font>
+                        </Label>
+                     </children>
+                  </VBox>
+                  <VBox alignment="CENTER" prefHeight="200.0" prefWidth="245.0" spacing="60.0">
+                     <children>
+                        <TextField fx:id="userlog" blendMode="MULTIPLY">
+                           <cursor>
+                           </cursor></TextField>
+                        <TextField fx:id="passlog" blendMode="MULTIPLY">
+                           <cursor>
+                           </cursor></TextField>
+                     </children>
+                  </VBox>
+               </children>
+            </HBox>
+         </center>
+         <bottom>
+            <Button fx:id="submitButton" cache="true" mnemonicParsing="false" onAction="#Login" prefHeight="44.0" prefWidth="139.0" style="-fx-background-color: eea1bd;" text="Log In" textAlignment="CENTER" textFill="#fff9fe" BorderPane.alignment="CENTER">
+               <font>
+                  <Font name="Comic Sans MS Bold" size="24.0" />
+               </font>
+               <cursor>
+               </cursor>
+            </Button>
+         </bottom>
+      </BorderPane>
+      <ImageView fitHeight="40.0" fitWidth="40.0" layoutX="39.0" layoutY="541.0" nodeOrientation="RIGHT_TO_LEFT" onMouseClicked="#LogOut" opacity="0.7">
+         <image>
+            <Image url="@imgs/2268532.png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>

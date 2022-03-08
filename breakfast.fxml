@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Ellipse?>
+<?import javafx.scene.shape.QuadCurve?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane id="AnchorPane" prefHeight="600.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="healthymeals.BreakfastController">
+   <children>
+      <AnchorPane id="AnchorPane" prefHeight="600.0" prefWidth="800.0" style="-fx-background-color: ffe8fb;">
+         <children>
+            <Rectangle arcHeight="5000.0" arcWidth="5.0" fill="#ebabe2d6" height="104.0" layoutX="670.0" layoutY="463.0" opacity="0.49" stroke="WHITE" strokeType="INSIDE" width="104.0" />
+            <Rectangle arcHeight="5000.0" arcWidth="5.0" fill="#ebabe2d6" height="104.0" layoutX="670.0" layoutY="326.0" opacity="0.49" stroke="WHITE" strokeType="INSIDE" width="104.0" />
+            <Rectangle arcHeight="5000.0" arcWidth="5.0" fill="#ebabe2d6" height="104.0" layoutX="669.0" layoutY="187.0" opacity="0.49" stroke="WHITE" strokeType="INSIDE" width="104.0" />
+            <Ellipse fill="#eda1bd99" layoutX="569.0" layoutY="-13.0" radiusX="230.0" radiusY="127.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" />
+            <QuadCurve controlX="130.0" controlY="169.0" endX="219.0" endY="-182.0" fill="#b79dd199" layoutX="123.0" layoutY="181.0" startX="-348.0" startY="-181.99996948242188" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" />
+            <ImageView fitHeight="137.0" fitWidth="136.0" layoutX="11.0" layoutY="11.0">
+               <image>
+                  <Image url="@imgs/2880492.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="112.0" fitWidth="111.0" layoutX="144.0" layoutY="22.0">
+               <image>
+                  <Image url="@imgs/2880701.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="87.0" fitWidth="86.0" layoutX="80.0" layoutY="78.0">
+               <image>
+                  <Image url="@imgs/1943200.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="63.0" fitWidth="55.0" layoutX="213.0" layoutY="90.0">
+               <image>
+                  <Image url="@imgs/3173522.png" />
+               </image>
+            </ImageView>
+            <QuadCurve controlX="47.0" controlY="80.0" endX="144.0" endY="-7.0" fill="#eea1bd" layoutX="124.0" layoutY="142.0" startX="-123.0" startY="-7.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" />
+            <Text fill="#fff9fe" layoutX="448.0" layoutY="68.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Breakfast">
+               <font>
+                  <Font name="Bell MT Bold" size="58.0" />
+               </font>
+            </Text>
+            <Label layoutX="668.0" layoutY="290.0" prefHeight="16.0" prefWidth="109.0" text="Scrambled Eggs" textFill="#eda1bd">
+               <font>
+                  <Font name="Arial Rounded MT Bold" size="13.0" />
+               </font>
+            </Label>
+            <Label layoutX="537.0" layoutY="290.0" text="Easy French" textFill="#eda1bd">
+               <font>
+                  <Font name="Arial Rounded MT Bold" size="13.0" />
+               </font>
+            </Label>
+            <Label layoutX="532.0" layoutY="429.0" text="Healthy Apple" textFill="#eda1bd">
+               <font>
+                  <Font name="Arial Rounded MT Bold" size="13.0" />
+               </font>
+            </Label>
+            <Rectangle arcHeight="5000.0" arcWidth="5.0" fill="#ebabe2d6" height="104.0" layoutX="525.0" layoutY="186.0" opacity="0.49" stroke="WHITE" strokeType="INSIDE" width="104.0" />
+            <Label layoutX="670.0" layoutY="565.0" prefHeight="22.0" prefWidth="111.0" text="Breakfast Panini" textFill="#eda1bd">
+               <font>
+                  <Font name="Arial Rounded MT Bold" size="13.0" />
+               </font>
+            </Label>
+            <Label layoutX="522.0" layoutY="565.0" prefHeight="22.0" prefWidth="118.0" text="Veggie Egg Cups" textFill="#eda1bd">
+               <font>
+                  <Font name="Arial Rounded MT Bold" size="13.0" />
+               </font>
+            </Label>
+            <Label layoutX="688.0" layoutY="444.0" text="Strawberry" textFill="#eda1bd">
+               <font>
+                  <Font name="Arial Rounded MT Bold" size="13.0" />
+               </font>
+            </Label>
+            <ImageView fitHeight="93.0" fitWidth="93.0" layoutX="531.0" layoutY="192.0" onMouseClicked="#rb1" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@imgs/b1.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="93.0" fitWidth="93.0" layoutX="675.0" layoutY="332.0" onMouseClicked="#rb4" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@imgs/b4.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="93.0" fitWidth="93.0" layoutX="676.0" layoutY="469.0" onMouseClicked="#rb6" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@imgs/b6.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="93.0" fitWidth="93.0" layoutX="675.0" layoutY="193.0" onMouseClicked="#rb2" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@imgs/b2.png" />
+               </image>
+            </ImageView>
+            <Rectangle arcHeight="5000.0" arcWidth="5.0" fill="#ebabe2d6" height="104.0" layoutX="524.0" layoutY="326.0" opacity="0.49" stroke="WHITE" strokeType="INSIDE" width="104.0" />
+            <ImageView fitHeight="93.0" fitWidth="93.0" layoutX="530.0" layoutY="332.0" onMouseClicked="#rb3" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@imgs/b3.png" />
+               </image>
+            </ImageView>
+            <Label layoutX="681.0" layoutY="304.0" prefHeight="16.0" prefWidth="86.0" text="with Veggies" textFill="#eda1bd">
+               <font>
+                  <Font name="Arial Rounded MT Bold" size="13.0" />
+               </font>
+            </Label>
+            <Rectangle arcHeight="5000.0" arcWidth="5.0" fill="#ebabe2d6" height="104.0" layoutX="525.0" layoutY="463.0" opacity="0.49" stroke="WHITE" strokeType="INSIDE" width="104.0" />
+            <ImageView fitHeight="93.0" fitWidth="93.0" layoutX="531.0" layoutY="469.0" onMouseClicked="#rb5" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@imgs/b5.png" />
+               </image>
+            </ImageView>
+            <Label layoutX="691.0" layoutY="429.0" text="Pancakes" textFill="#eda1bd">
+               <font>
+                  <Font name="Arial Rounded MT Bold" size="13.0" />
+               </font>
+            </Label>
+            <Label layoutX="553.0" layoutY="444.0" text="Muffins" textFill="#eda1bd">
+               <font>
+                  <Font name="Arial Rounded MT Bold" size="13.0" />
+               </font>
+            </Label>
+            <Label layoutX="558.0" layoutY="304.0" text="Toast" textFill="#eda1bd">
+               <font>
+                  <Font name="Arial Rounded MT Bold" size="13.0" />
+               </font>
+            </Label>
+         </children>
+      </AnchorPane>
+      <TextArea fx:id="textb" blendMode="MULTIPLY" editable="false" layoutX="50.0" layoutY="210.0" prefHeight="344.0" prefWidth="449.0" wrapText="true" />
+      <ImageView fitHeight="40.0" fitWidth="40.0" layoutX="34.0" layoutY="557.0" nodeOrientation="RIGHT_TO_LEFT" onMouseClicked="#Back" opacity="0.7">
+         <image>
+            <Image url="@imgs/2268532.png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>
